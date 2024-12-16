@@ -1,7 +1,5 @@
-import asyncio
 from .database import create_db_and_tables
 import sys
-import random
 from PySide6 import QtCore, QtWidgets, QtGui
 from .gui import MyWidget
 from bd_realization.constant_tables.table1_8 import fill_table as table1
